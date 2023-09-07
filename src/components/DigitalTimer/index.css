@@ -1,0 +1,148 @@
+/* Write your CSS here */
+.bg-container {
+  background: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  padding: 82px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.bg-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 750px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-heading {
+  color: #1e293b;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.timer {
+  height: 200px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #00d9f5;
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.type-timer {
+  color: #0f172a;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.play-icon {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+}
+.reset-icon {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+}
+
+.operate-timer-container {
+  display: flex;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+.play-icon-name {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 12px;
+  margin-right: 5px;
+}
+.reset-icon-name {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 12px;
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.num {
+  color: #0f172a;
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 12px;
+  background-color: #20facb;
+  height: 40px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plus-btn {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.minus-btn {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 900;
+  margin-right: 12px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.limit {
+  font-size: smaller;
+  color: #0f172a;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.increment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.play-and-reset-container {
+  display: flex;
+}
+.play-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.reset-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+}
